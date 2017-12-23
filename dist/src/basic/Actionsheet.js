@@ -136,9 +136,9 @@ _react2.default.createElement(_Text.Text,{
 style:{
 color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:135}},
 
-data.text)),
+data.text)));
 
-_react2.default.createElement(_Right.Right,{__source:{fileName:_jsxFileName,lineNumber:141}}));
+
 
 
 },__source:{fileName:_jsxFileName,lineNumber:97}})))));

@@ -138,7 +138,7 @@ class ActionSheetContainer extends Component {
                       }}
                       >{data.text}</Text>
                     </Body>
-                    <Right />
+                    
                   </ListItem>
                 );
               }}

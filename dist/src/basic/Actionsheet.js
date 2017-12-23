@@ -104,11 +104,12 @@ onPress:function onPress(){
 _this2.state.callback(parseInt(id));
 _this2.setState({modalVisible:false});
 },
-style:{borderColor:"transparent"},__source:{fileName:_jsxFileName,lineNumber:102}},
+itemDivider:false,
+style:{borderColor:"transparent",borderWidth:0,flex:1},__source:{fileName:_jsxFileName,lineNumber:102}},
 
 _react2.default.createElement(_Text.Text,{
 style:{
-color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:109}},
+color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:110}},
 
 data)):
 
@@ -118,25 +119,26 @@ onPress:function onPress(){
 _this2.state.callback(parseInt(id));
 _this2.setState({modalVisible:false});
 },
-style:{borderColor:"transparent",borderWidth:0},
-icon:true,__source:{fileName:_jsxFileName,lineNumber:116}},
+itemDivider:false,
+style:{borderColor:"transparent",borderWidth:0,flex:1},
+icon:true,__source:{fileName:_jsxFileName,lineNumber:117}},
 
-_react2.default.createElement(_Left.Left,{__source:{fileName:_jsxFileName,lineNumber:124}},
+_react2.default.createElement(_Left.Left,{__source:{fileName:_jsxFileName,lineNumber:126}},
 _react2.default.createElement(_Icon.Icon,{
 name:data.icon,
 style:{
-color:data.iconColor?data.iconColor:undefined},__source:{fileName:_jsxFileName,lineNumber:125}})),
+color:data.iconColor?data.iconColor:undefined},__source:{fileName:_jsxFileName,lineNumber:127}})),
 
 
 
-_react2.default.createElement(_Body.Body,{style:{borderColor:"transparent",borderWidth:0},__source:{fileName:_jsxFileName,lineNumber:132}},
+_react2.default.createElement(_Body.Body,{style:{borderColor:"transparent",borderWidth:0,flex:1},__source:{fileName:_jsxFileName,lineNumber:134}},
 _react2.default.createElement(_Text.Text,{
 style:{
-color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:133}},
+color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:135}},
 
 data.text)),
 
-_react2.default.createElement(_Right.Right,{__source:{fileName:_jsxFileName,lineNumber:139}}));
+_react2.default.createElement(_Right.Right,{__source:{fileName:_jsxFileName,lineNumber:141}}));
 
 
 },__source:{fileName:_jsxFileName,lineNumber:97}})))));

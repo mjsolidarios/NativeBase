@@ -106,7 +106,11 @@ _this2.setState({modalVisible:false});
 },
 style:{borderColor:"transparent"},__source:{fileName:_jsxFileName,lineNumber:102}},
 
-_react2.default.createElement(_Text.Text,{__source:{fileName:_jsxFileName,lineNumber:109}},data)):
+_react2.default.createElement(_Text.Text,{
+style:{
+color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:109}},
+
+data)):
 
 
 _react2.default.createElement(_ListItem.ListItem,{
@@ -114,21 +118,25 @@ onPress:function onPress(){
 _this2.state.callback(parseInt(id));
 _this2.setState({modalVisible:false});
 },
-style:{borderColor:"transparent"},
-icon:true,__source:{fileName:_jsxFileName,lineNumber:112}},
+style:{borderColor:"transparent",borderWidth:0},
+icon:true,__source:{fileName:_jsxFileName,lineNumber:116}},
 
-_react2.default.createElement(_Left.Left,{__source:{fileName:_jsxFileName,lineNumber:120}},
+_react2.default.createElement(_Left.Left,{__source:{fileName:_jsxFileName,lineNumber:124}},
 _react2.default.createElement(_Icon.Icon,{
 name:data.icon,
 style:{
-color:data.iconColor?data.iconColor:undefined},__source:{fileName:_jsxFileName,lineNumber:121}})),
+color:data.iconColor?data.iconColor:undefined},__source:{fileName:_jsxFileName,lineNumber:125}})),
 
 
 
-_react2.default.createElement(_Body.Body,{style:{borderColor:"transparent"},__source:{fileName:_jsxFileName,lineNumber:128}},
-_react2.default.createElement(_Text.Text,{__source:{fileName:_jsxFileName,lineNumber:129}},data.text)),
+_react2.default.createElement(_Body.Body,{style:{borderColor:"transparent",borderWidth:0},__source:{fileName:_jsxFileName,lineNumber:132}},
+_react2.default.createElement(_Text.Text,{
+style:{
+color:data.textColor?data.textColor:undefined},__source:{fileName:_jsxFileName,lineNumber:133}},
 
-_react2.default.createElement(_Right.Right,{__source:{fileName:_jsxFileName,lineNumber:131}}));
+data.text)),
+
+_react2.default.createElement(_Right.Right,{__source:{fileName:_jsxFileName,lineNumber:139}}));
 
 
 },__source:{fileName:_jsxFileName,lineNumber:97}})))));

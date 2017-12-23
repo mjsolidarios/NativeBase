@@ -104,7 +104,8 @@ class ActionSheetContainer extends Component {
                       this.state.callback(parseInt(id));
                       this.setState({ modalVisible: false });
                     }}
-                    style={{ borderColor: "transparent" }}
+                    itemDivider={false}
+                    style={{ borderColor: "transparent", borderWidth: 0, flex: 1 }}
                   >
                     <Text
                     style={{
@@ -118,7 +119,8 @@ class ActionSheetContainer extends Component {
                       this.state.callback(parseInt(id));
                       this.setState({ modalVisible: false });
                     }}
-                    style={{ borderColor: "transparent", borderWidth: 0 }}
+                    itemDivider={false}
+                    style={{ borderColor: "transparent", borderWidth: 0, flex: 1 }}
                     icon
                   >
                     <Left>
@@ -129,7 +131,7 @@ class ActionSheetContainer extends Component {
                         }}
                       />
                     </Left>
-                    <Body style={{ borderColor: "transparent", borderWidth: 0 }}>
+                    <Body style={{ borderColor: "transparent", borderWidth: 0, flex: 1 }}>
                       <Text
                       style={{
                         color: data.textColor ? data.textColor : undefined
